@@ -6,6 +6,7 @@ import './styles/App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Playstation from "./pages/PlayStation";
 function App() {
 	  return (
 		      <Router>
@@ -14,6 +15,7 @@ function App() {
 		          <main>
 		            <Routes>
 		              <Route path="/" element={<Home />} />
+					  <Route path="/play-station" element={<Playstation />} />
 		              {/* Agrega más rutas aquí */}
 		            </Routes>
 		          </main>
