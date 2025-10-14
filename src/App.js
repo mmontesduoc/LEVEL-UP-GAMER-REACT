@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Playstation from "./pages/PlayStation";
 import Pc from "./pages/pc";
+import NintendoPage from "./pages/nintendo";
+
 function App() {
 	  return (
 		      <Router>
@@ -18,6 +20,7 @@ function App() {
 		              <Route path="/" element={<Home />} />
 					  <Route path="/play-station" element={<Playstation />} />
 					  <Route path="/pc" element={<Pc />} />
+					  <Route path="/nintendo" element={<NintendoPage />} />
 		              {/* Agrega más rutas aquí */}
 		            </Routes>
 		          </main>
